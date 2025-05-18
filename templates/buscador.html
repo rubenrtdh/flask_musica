@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Buscar Canciones{% endblock %}
+
+{% block content %}
+<div class="card mb-4">
+    <div class="card-body">
+        <h2 class="card-title">Buscar Canciones</h2>
+        <form method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                    <input type="text" name="nombre" class="form-control" value="{{ busqueda }}" 
+                           placeholder="Buscar por nombre de canción...">
+                </div>
+                <div class="form-group col-md-4">
+                    <select name="genero" class="form-control">
+                        <option value="">Todos los géneros</option>
+                        {% for genero in generos %}
+                        <option value="{{ genero }}" {% if genero == genero_seleccionado %}selected{% endif %}>
+                            {{ genero }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+    </div>
+</div>
+
+{% if canciones %}
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">Resultados ({{ canciones|length }})</h3>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Título</th>
+                        <th>Artista</th>
+                        <th>Álbum</th>
+                        <th>Género</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for cancion in canciones %}
+                    <tr>
+                        <td>{{ cancion.titulo }}</td>
+                        <td>{{ cancion.artista }}</td>
+                        <td>{{ cancion.album }}</td>
+                        <td>{{ cancion.genero }}</td>
+                        <td>
+                            <a href="{{ url_for('detalle', id=cancion.id) }}" class="btn btn-sm btn-info">
+                                <i class="fas fa-info-circle"></i> Detalle
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% elif request.method == 'POST' %}
+<div class="alert alert-warning">
+    No se encontraron canciones con los criterios de búsqueda.
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center">
+    <a href="{{ url_for('buscador') }}">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="MusicApp Logo" class="img-fluid clickable-logo" style="max-width: 300px;">
+    </a>
+    <h1 class="mt-4">Bienvenido a MusicApp</h1>
+    <p class="lead">Descubre y explora tu música favorita</p>
+</div>
+{% endblock %}

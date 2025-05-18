@@ -1,0 +1,414 @@
+{
+    "artistas": [
+      {
+        "nombre": "Shakira",
+        "pais": "Colombia",
+        "albumes": [
+          {
+            "titulo": "Pies descalzos",
+            "año": 1995,
+            "genero": "Pop Latino",
+            "productor": "Luis Fernando Ochoa",
+            "ventas": 5000000,
+            "canciones": [
+              {
+                "titulo": "Estoy aquí",
+                "duracion": "4:15",
+                "rating": 4.5,
+                "compositores": ["Shakira", "Luis Fernando Ochoa"],
+                "premios": ["Premio Lo Nuestro"]
+              },
+              {
+                "titulo": "Pies descalzos",
+                "duracion": "3:50",
+                "rating": 4.2,
+                "compositores": ["Shakira"],
+                "colaboraciones": ["Andrés Castro"]
+              }
+            ]
+          },
+          {
+            "titulo": "El Dorado",
+            "año": 2017,
+            "genero": "Pop Latino",
+            "productor": "Shakira",
+            "ventas": 10000000,
+            "canciones": [
+              {
+                "titulo": "Chantaje",
+                "duracion": "3:40",
+                "rating": 4.6,
+                "compositores": ["Shakira", "Maluma"],
+                "colaboraciones": ["Maluma"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Coldplay",
+        "pais": "Reino Unido",
+        "albumes": [
+          {
+            "titulo": "Parachutes",
+            "año": 2000,
+            "genero": "Rock Alternativo",
+            "productor": "Ken Nelson",
+            "ventas": 15000000,
+            "canciones": [
+              {
+                "titulo": "Yellow",
+                "duracion": "4:29",
+                "rating": 4.7,
+                "compositores": ["Chris Martin", "Jonny Buckland"],
+                "premios": ["Grammy"]
+              }
+            ]
+          },
+          {
+            "titulo": "Mylo Xyloto",
+            "año": 2011,
+            "genero": "Rock Alternativo",
+            "productor": "Brian Eno",
+            "ventas": 12000000,
+            "canciones": [
+              {
+                "titulo": "Paradise",
+                "duracion": "4:37",
+                "rating": 4.5,
+                "compositores": ["Chris Martin", "Will Champion"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Beyoncé",
+        "pais": "Estados Unidos",
+        "albumes": [
+          {
+            "titulo": "Lemonade",
+            "año": 2016,
+            "genero": "R&B",
+            "productor": "Beyoncé",
+            "ventas": 20000000,
+            "canciones": [
+              {
+                "titulo": "Formation",
+                "duracion": "3:26",
+                "rating": 4.6,
+                "compositores": ["Beyoncé", "Swae Lee"],
+                "premios": ["MTV Video Music Award"]
+              }
+            ]
+          },
+          {
+            "titulo": "B'Day",
+            "año": 2006,
+            "genero": "Pop",
+            "productor": "Rich Harrison",
+            "ventas": 18000000,
+            "canciones": [
+              {
+                "titulo": "Irreplaceable",
+                "duracion": "3:48",
+                "rating": 4.8,
+                "compositores": ["Beyoncé", "Ne-Yo"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "The Beatles",
+        "pais": "Reino Unido",
+        "albumes": [
+          {
+            "titulo": "Abbey Road",
+            "año": 1969,
+            "genero": "Rock",
+            "productor": "George Martin",
+            "ventas": 31000000,
+            "canciones": [
+              {
+                "titulo": "Come Together",
+                "duracion": "4:19",
+                "rating": 4.7,
+                "compositores": ["John Lennon", "Paul McCartney"]
+              }
+            ]
+          },
+          {
+            "titulo": "Rubber Soul",
+            "año": 1965,
+            "genero": "Rock Psicodélico",
+            "productor": "George Martin",
+            "ventas": 24000000,
+            "canciones": [
+              {
+                "titulo": "Norwegian Wood",
+                "duracion": "2:05",
+                "rating": 4.6,
+                "compositores": ["John Lennon"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "BTS",
+        "pais": "Corea del Sur",
+        "albumes": [
+          {
+            "titulo": "Map of the Soul: 7",
+            "año": 2020,
+            "genero": "K-pop",
+            "productor": "Pdogg",
+            "ventas": 4200000,
+            "canciones": [
+              {
+                "titulo": "ON",
+                "duracion": "4:08",
+                "rating": 4.5,
+                "compositores": ["RM", "SUGA", "j-hope"],
+                "premios": ["Melon Music Award"]
+              }
+            ]
+          },
+          {
+            "titulo": "Love Yourself: Answer",
+            "año": 2018,
+            "genero": "K-pop",
+            "productor": "Bang Si-hyuk",
+            "ventas": 3800000,
+            "canciones": [
+              {
+                "titulo": "IDOL",
+                "duracion": "3:59",
+                "rating": 4.7,
+                "compositores": ["RM", "j-hope"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Bob Marley",
+        "pais": "Jamaica",
+        "albumes": [
+          {
+            "titulo": "Legend",
+            "año": 1984,
+            "genero": "Reggae",
+            "productor": "Chris Blackwell",
+            "ventas": 25000000,
+            "canciones": [
+              {
+                "titulo": "No Woman, No Cry",
+                "duracion": "7:09",
+                "rating": 4.8,
+                "compositores": ["Vincent Ford", "Bob Marley"]
+              }
+            ]
+          },
+          {
+            "titulo": "Exodus",
+            "año": 1977,
+            "genero": "Reggae",
+            "productor": "Chris Blackwell",
+            "ventas": 19000000,
+            "canciones": [
+              {
+                "titulo": "Jamming",
+                "duracion": "3:31",
+                "rating": 4.6,
+                "compositores": ["Bob Marley"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Taylor Swift",
+        "pais": "Estados Unidos",
+        "albumes": [
+          {
+            "titulo": "1989",
+            "año": 2014,
+            "genero": "Pop",
+            "productor": "Max Martin",
+            "ventas": 13000000,
+            "canciones": [
+              {
+                "titulo": "Blank Space",
+                "duracion": "3:51",
+                "rating": 4.5,
+                "compositores": ["Taylor Swift", "Max Martin"]
+              }
+            ]
+          },
+          {
+            "titulo": "Folklore",
+            "año": 2020,
+            "genero": "Indie Folk",
+            "productor": "Aaron Dessner",
+            "ventas": 8000000,
+            "canciones": [
+              {
+                "titulo": "Cardigan",
+                "duracion": "3:39",
+                "rating": 4.7,
+                "compositores": ["Taylor Swift", "Bon Iver"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Michael Jackson",
+        "pais": "Estados Unidos",
+        "albumes": [
+          {
+            "titulo": "Thriller",
+            "año": 1982,
+            "genero": "Pop",
+            "productor": "Quincy Jones",
+            "ventas": 100000000,
+            "canciones": [
+              {
+                "titulo": "Billie Jean",
+                "duracion": "4:54",
+                "rating": 4.9,
+                "compositores": ["Michael Jackson"],
+                "premios": ["8 Grammys"]
+              }
+            ]
+          },
+          {
+            "titulo": "Bad",
+            "año": 1987,
+            "genero": "Pop",
+            "productor": "Quincy Jones",
+            "ventas": 35000000,
+            "canciones": [
+              {
+                "titulo": "Man in the Mirror",
+                "duracion": "5:19",
+                "rating": 4.8,
+                "compositores": ["Glen Ballard", "Siedah Garrett"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Queen",
+        "pais": "Reino Unido",
+        "albumes": [
+          {
+            "titulo": "A Night at the Opera",
+            "año": 1975,
+            "genero": "Rock",
+            "productor": "Roy Thomas Baker",
+            "ventas": 20000000,
+            "canciones": [
+              {
+                "titulo": "Bohemian Rhapsody",
+                "duracion": "5:55",
+                "rating": 4.9,
+                "compositores": ["Freddie Mercury"],
+                "premios": ["Premio Brit"]
+              }
+            ]
+          },
+          {
+            "titulo": "The Game",
+            "año": 1980,
+            "genero": "Rock",
+            "productor": "Reinhold Mack",
+            "ventas": 15000000,
+            "canciones": [
+              {
+                "titulo": "Another One Bites the Dust",
+                "duracion": "3:35",
+                "rating": 4.7,
+                "compositores": ["John Deacon"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Adele",
+        "pais": "Reino Unido",
+        "albumes": [
+          {
+            "titulo": "21",
+            "año": 2011,
+            "genero": "Soul",
+            "productor": "Rick Rubin",
+            "ventas": 31000000,
+            "canciones": [
+              {
+                "titulo": "Someone Like You",
+                "duracion": "4:45",
+                "rating": 4.8,
+                "compositores": ["Adele", "Dan Wilson"]
+              }
+            ]
+          },
+          {
+            "titulo": "25",
+            "año": 2015,
+            "genero": "Pop",
+            "productor": "Greg Kurstin",
+            "ventas": 22000000,
+            "canciones": [
+              {
+                "titulo": "Hello",
+                "duracion": "4:55",
+                "rating": 4.7,
+                "compositores": ["Adele", "Greg Kurstin"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Led Zeppelin",
+        "pais": "Reino Unido",
+        "albumes": [
+          {
+            "titulo": "IV",
+            "año": 1971,
+            "genero": "Rock",
+            "productor": "Jimmy Page",
+            "ventas": 37000000,
+            "canciones": [
+              {
+                "titulo": "Stairway to Heaven",
+                "duracion": "8:02",
+                "rating": 4.9,
+                "compositores": ["Jimmy Page", "Robert Plant"]
+              }
+            ]
+          },
+          {
+            "titulo": "Physical Graffiti",
+            "año": 1975,
+            "genero": "Rock",
+            "productor": "Jimmy Page",
+            "ventas": 16000000,
+            "canciones": [
+              {
+                "titulo": "Kashmir",
+                "duracion": "8:37",
+                "rating": 4.8,
+                "compositores": ["Jimmy Page", "Robert Plant"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

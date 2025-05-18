@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+    <tr>
+        <th>Título</th>
+        <th>Artista</th>
+        <th>Detalle</th>
+    </tr>
+    {% for cancion in canciones %}
+    <tr>
+        <td>{{ cancion.titulo }}</td>
+        <td>{{ cancion.artista }}</td>
+        <td><a href="{{ url_for('detalle', id=cancion.id) }}">Detalle</a></td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

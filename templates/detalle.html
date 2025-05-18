@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Detalle: {{ cancion.titulo }}{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h2>{{ cancion.titulo }}</h2>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Información Básica</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Artista:</strong> {{ cancion.artista }}</li>
+                    <li class="list-group-item"><strong>Álbum:</strong> {{ cancion.album }}</li>
+                    <li class="list-group-item"><strong>Género:</strong> {{ cancion.genero }}</li>
+                    <li class="list-group-item"><strong>Duración:</strong> {{ cancion.duracion }}</li>
+                    <li class="list-group-item"><strong>Año:</strong> {{ cancion.año }}</li>
+                    <li class="list-group-item"><strong>Rating:</strong> {{ cancion.rating }}/5</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Detalles Adicionales</h4>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Compositores:</strong> {{ cancion.compositores }}</li>
+                    {% if cancion.colaboraciones %}
+                    <li class="list-group-item"><strong>Colaboraciones:</strong> {{ cancion.colaboraciones }}</li>
+                    {% endif %}
+                    {% if cancion.premios %}
+                    <li class="list-group-item"><strong>Premios:</strong> {{ cancion.premios }}</li>
+                    {% endif %}
+                    <li class="list-group-item"><strong>País:</strong> {{ cancion.pais }}</li>
+                    <li class="list-group-item"><strong>Productor:</strong> {{ cancion.productor }}</li>
+                    <li class="list-group-item"><strong>Ventas:</strong> {{ "{:,}".format(cancion.ventas) }} copias</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer text-center">
+        <a href="{{ url_for('buscador') }}" class="btn btn-primary">
+            <i class="fas fa-arrow-left"></i> Volver al buscador
+        </a>
+    </div>
+</div>
+{% endblock %}
